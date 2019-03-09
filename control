@@ -1,0 +1,9 @@
+Package: com.karimo299.betterprotec
+Name: BetterProtec
+Depends: mobilesubstrate, applist
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Locks selected applications
+Maintainer: Karimo299
+Author: Karimo299
+Section: Tweaks

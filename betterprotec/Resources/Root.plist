@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Main</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>com.karimo299.betterprotec/prefChanged</string>
+				<key>defaults</key>
+				<string>com.karimo299.betterprotec</string>
+				<key>key</key>
+				<string>isEnabled</string>
+				<key>label</key>
+				<string>Enable</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Extra</string>
+			</dict>
+			<dict>
+				<key>bundle</key>
+				<string>AppList</string>
+				<key>ALNavigationTitle</key>
+				<string>Default Locked Apps</string>
+				<key>enabled</key>
+				<true/>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>isController</key>
+				<true/>
+				<key>label</key>
+				<string>Default Locked Apps</string>
+				<key>ALSettingsPath</key>
+				<string>/var/mobile/Library/Preferences/com.karimo299.betterprotec.plist</string>
+				<key>ALSettingsKeyPrefix</key>
+				<string>LockedApps-</string>
+				<key>PostNotification</key>
+				<string>com.karimo299.betterprotec/prefChanged</string>
+			</dict>
+	</array>
+	<key>title</key>
+	<string>BetterProtec</string>
+</dict>
+</plist>
